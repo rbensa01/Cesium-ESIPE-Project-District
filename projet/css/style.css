@@ -1,0 +1,98 @@
+* {
+     box-sizing:border-box;
+}
+	
+#cesiumContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+  
+#baseLayerPickerContainer {
+	position:absolute;
+	bottom:350px;
+	right:10px;
+	width:45px;
+	height:42px;
+	border:3px solid grey;
+}
+
+#loading {
+     display: block;
+     position: absolute;
+     right: 10px;
+     top: 10px;
+     background-color: rgba(255,255,255,0.75);
+     color: black;
+     font-family: 'Helvetica';
+}
+
+#loading .text {
+     margin: 10px;
+     font-size: 10pt;
+}
+
+.popup {
+     display: none;
+     border-radius: 10px;
+     position: absolute;
+     width: 400px;
+     background-color: rgba(255,255,255,0.75);
+     color: black;
+     font-family: 'Helvetica';
+     margin: 10px;
+     padding: 10px;
+}
+
+.popup .button {
+     float: right;
+     height: 20px;
+     border-radius: 5px;
+     border:1px solid gray;
+}
+
+.popup .title {
+     margin: 15px;
+     font-size: 15pt;
+     text-align: center;
+     font-weight: bold;
+}
+.popup .text {
+     margin-top: 20px;
+     margin-left: 5px;
+     font-size: 11pt;
+}
+
+.popup  li {
+     padding-left: 10px;
+     font-size: 10pt;
+     list-style-type: none;
+}
+
+.popup .infos{
+     margin: 5px;
+     font-size: 8pt;
+     font-style: italic;
+}
+
+.clear {
+     clear:both;
+}
+
+#popup > img{
+	padding-left: 20px;
+	width:350px;
+	margin:auto;
+}
